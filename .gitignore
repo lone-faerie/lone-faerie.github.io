@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # This .gitignore is appropriate for repositories deployed to GitHub Pages and using
 # a Gemfile as specified at https://github.com/github/pages-gem#conventional
 
@@ -15,4 +16,11 @@ _site/
 # This means GitHub Pages will NOT use your Gemfile.lock and therefore it is
 # counterproductive to check this file into the repository.
 # Details at https://github.com/github/pages-gem/issues/768
+=======
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+>>>>>>> 83e26f2 (Initial Github pages site with Jekyll)
 Gemfile.lock
