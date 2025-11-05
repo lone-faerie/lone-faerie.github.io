@@ -1,0 +1,8 @@
+<link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css">
+
+<footer>
+    {%- for social in site.data.social_links -%}
+    <a href="{{ social.url }}" target="_blank" {% if social.alt %}alt="{{ social.alt }}"{% endif %}><span class="fa-brands fa-{{ social.icon }}"></span></a>
+    {% endfor -%}
+    <p>© lone-faerie 2025</p>
+</footer>

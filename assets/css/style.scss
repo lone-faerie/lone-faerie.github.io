@@ -1,0 +1,39 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body {
+    min-height: 100vh;
+    margin: 0;
+}
+
+footer {
+    min-height: 50px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    opacity: 0.6;
+    text-shadow: none;
+}
+
+footer a {
+    color: white;
+    opacity: 0.6;
+    text-shadow: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
