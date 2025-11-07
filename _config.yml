@@ -18,11 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: lone-faerie
+title: portfolio lone-faerie
 author: lone-faerie
 email: lone-faerie@gmail.com
 description: >-
-  A portfolio of projects made by lone-faerie
+  A selection of projects made by lone-faerie
 url: "https://lone-faerie.github.io"
 permalink: /:categories/:title/
 github_username:  lone-faerie

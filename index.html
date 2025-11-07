@@ -16,3 +16,20 @@ layout: default
 {% for project in projects %}
 <p><h2 style="display: inline;"><a href="{{ project.url }}">{{ project.title }}</a></h2> • {{ project.excerpt | strip_html }}</p>
 {% endfor %}
+<h2>Small Projects</h2>
+<dl>
+    <dt>Network Tunnel</dt>
+    <dd>A tunnel between a VPS and my home server using WireGuard and Caddy</dd>
+
+    <dt>3D Printer</dt>
+    <dd>An Ender 3 S1 modified to run Klipper firmware</dd>
+
+    <dt>Home Assistant</dt>
+    <dd>An instance of Home Assistant hosted on a Raspberry Pi. Includes smart lights, 3D printer notifications, and voice assistant</dd>
+
+    <dt>Voice Assistant</dt>
+    <dd>An AI voice assistant using Whisper, Piper, and Ollama</dd>
+
+    <dt>Home Server</dt>
+    <dd>A Linux server hosting Jellyfin and Immich for media, and services for the voice assistant</dd>
+</dl>
